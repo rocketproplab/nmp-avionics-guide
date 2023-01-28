@@ -1,6 +1,10 @@
 site_name: NMP Avionics Guide
+repo_url: https://github.com/rocketproplab/nmp-avionics-guide
+
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   features:
     - content.code.copy
   palette: 
