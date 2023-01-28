@@ -5,7 +5,7 @@ In this chapter, we will ensure that our Arduino Nano is ready for both hardware
 ## Mount Arduino to Breadboard
 Before we write any code, let's mount our Arduino to our breadboard. This does not do anything immediate, but it prepares our Arduino for prototyping with wires later.
 
-The following gif demonstrates the mounting process. Mount the Arduino such that its **D13 pin is on row 1.**
+The following gif demonstrates the mounting process. Mount the Arduino such that its **D13 pin is on row 1 of the breadboard.**
 
 ![Attach arduino to breadboard](../assets/gifs/arduinoOntoBreadboard.gif)
 
