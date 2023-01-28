@@ -10,7 +10,6 @@ You will need two programs for this level of Avionics:
 You can get the Arduino IDE (Integrated Development Environment) [here](https://www.arduino.cc/en/software). Install it like any other program before continuing.
 
 ## SD Assocation Formatting Utility
-i
 You can get the SD Assocation Formatting Utility [here](https://www.sdcard.org/downloads/formatter/). Install it like any other program before continuing.
 
 ## Reboot Your Computer

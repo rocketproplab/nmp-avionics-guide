@@ -130,7 +130,10 @@ In order to read the transmitted data, we must open the Arduino's Serial Monitor
 ![Serial Monitor Output](../assets/gifs/firstTimeSerialMonitor.gif)
 
 !!! info "Not Seeing Anything? Check the Baud Rate!"
-    You may have noticed that `Serial.begin(...)` has a number parameter. This number is the Baud rate. Serial sends 
+    Sometimes, if you open the Serial Monitor, you may see nothing. You might also see incomprehensible garbage. If this happens, the first thing to check is the baud rate.
+    The baud rate of a serial connection is the amount of bits it sends per second. If the sender and receiver disagree on the baud rate, then messages will be decoded incorrectly. 
+    
+    You may have also noticed that we passed 9600 as a parameter to the `Serial.begin(...)` function. This is what sets the sender's baud rate. **Make sure this number matches the Serial Monitor's baud rate.**
 
 We should see the text `Hello, Arduino! I am setup!` printed once, and then `Hello, Arduino! I am looping!` printing over and over again. Take a moment to reflect and see how this behavior matches the written code. Also, congratulations! You have just written your first Arduino program!
 

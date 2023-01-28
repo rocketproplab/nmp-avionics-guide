@@ -14,7 +14,21 @@ Why can't we use Windows or Mac's built-in SD formatting utilities? Arduinos are
 
 ### Formatting using the Utility
 
-TODO
+To format the SD card, plug the SD card into your computer.
+
+Vendors like SanDisk include a bunch of undesired applications and files on new SD cards. Just delete everything in the SD card. 
+
+Open the utility. Then, select the drive and hit format.
+
+![SDCardFormat](../assets/sdFormat.png)
+
+!!! info "Be sure to provide a name for your volume."
+
+    The SD card will not format correctly without a name for the volume.
+
+!!! info "Doesn't work the first time? Try disabling quick format in options."
+
+    I have had mixed results with formatting brand new SD cards with the quick format option. If it does not work the first time, be sure to disable this by clicking the options button in the utility.
 
 ## Mounting the Micro SD Card Module
 
@@ -26,7 +40,7 @@ Because the SD Card Module comes with bent headers, mounting it to the breadboar
 
 !!! info "Unplug the Arduino before Wiring"
 
-    Unplugging the Arduino during this step will avoid potentially frying components.
+    Unplugging the Arduino during this step will reduce the risk of accidentally frying components when wiring.
 
 The SD Card Module has 6 pins. Wire them as directed by the table below. The breadboard rows may differ if you placed it in a different location.
 
@@ -49,11 +63,11 @@ The following images demonstrate a properly wired SD Card module:
 
 With the module wired correctly, it is now time to insert the SD card.
 
-
-
 !!! info "The SD Card should click in."
 
     The click will feel very tactile and satisfying. Please avoid the temptation to repeat this process for more times than is necessary as it causes wear to the module.
+
+![Click!](../assets/gifs/click.gif)
 
 ## Testing the SD Card Module
 
