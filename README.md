@@ -1,18 +1,21 @@
 # RPL NMP Avionics Guide Site
 A [Material MkDocs](https://squidfunk.github.io/mkdocs-material/) site that provides guidance for Rocket Propulsion Lab's New Member Project regarding the development of a flight computer for a model rocket.
 
-## Requirements: Building the Site
-Requires Python 3
 
+## Building the Site Locally
+### Prerequisites
 
-## Getting Started
+Before building, install the following software:
 
-### Install Depedencies
-Run `pip install -r requirements.txt` to install the project dependencies.
+- Python 3.10
+- Pip, the Python Package Manager
 
-### Running the Local Dev Server
-You can preview your changes to the website by running `mkdocs serve`. This will host a local dev server with your latest changes. This updates in real-time.
+### Building the Site
 
-## Deploying
+While contributions can be made by directly adding and editing markdown files, it is generally nicer to continuously build the site to see how changes look to normal readers.
 
-You can build the website into an HTML website with `mkdocs build`.
+1. Open a terminal window and navigate to the root directory of this project.
+2. Type `pip install -r requirements.txt` to install required dependencies.
+3. Type `mkdocs serve` to start a local development server.
+
+When ready to build the site as a static HTML website, type `mkdocs build`.
