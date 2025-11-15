@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - mark-update
+    paths:
+      - "mkdocs.yml"
 permissions:
   contents: write
 jobs:
